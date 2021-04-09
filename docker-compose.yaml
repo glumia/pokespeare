@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  api:
+    build:
+      context: .
+      target: app
+    command: gunicorn --bind=:8000 pokespeare.wsgi:create_app() --reload
+    volumes:
+      - ./pokespeare:/pokespeare
+    ports:
+      - 8000:8000

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pokespeare"
+version = "0.1.0"
+description = "Pokemon shakespearean descriptions"
+authors = ["Giuseppe Lumia <g.lumia@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^1.1.2"
+gunicorn = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.12.0"
+flake8 = "^3.9.0"
+isort = "^5.8.0"
+black = "^20.8b1"
+bandit = "^1.7.0"
+safety = "^1.10.3"
+pytest = "^6.2.3"
+coverage = "^5.5"
+bump2version = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
