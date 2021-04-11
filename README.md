@@ -78,4 +78,3 @@ $ bump2version minor
 
 Check bump2version's [README](https://github.com/c4urself/bump2version/blob/master/README.md) for more details about the
 options you can provide to it.
-

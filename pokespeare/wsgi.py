@@ -11,7 +11,12 @@ def create_app():
         return "pong"
 
     # Register blueprints to the app
-    # from .views import my_module
-    # app.register_blueprint(my_module.bp)
+    from .views import pokemon
+
+    app.register_blueprint(pokemon.bp)
+
+    # Initialize app's accessors
+    from .pokeapi import poke_api_client  # noqa
+    from .shakespeare import shakespeare_client  # noqa
 
     return app
