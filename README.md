@@ -78,3 +78,16 @@ $ bump2version minor
 
 Check bump2version's [README](https://github.com/c4urself/bump2version/blob/master/README.md) for more details about the
 options you can provide to it.
+
+
+## Further improvements
+- Add Redis to the stack and use it to cache responses of PokeAPI and funtranslations
+- Add logging (ELK stack) of incoming and outgoing requests
+- Add rate limiting to avoid a single client exhausting the 'budget' of requests to
+  funtranslations
+- Add Sentry to monitor application's errors
+- Add an OpenAPI spec and automated tests to check for API services' compliance with it
+- Add GitHub actions to run `make lint` and `make test` on pull requests
+- Add more documentation (e.g. coding style, design decision, contributing guidelines)
+- Add a storage system (PostgreSQL) and implement authentication to be able to
+  provide a paid `premium` plan.
