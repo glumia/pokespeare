@@ -1,5 +1,5 @@
 """Top-level package for pokespeare."""
 
 __author__ = "Giuseppe Lumia"
-__email__ = "g.lumia@outlook.com"
+__email__ = "gius@glumia.dev"
 __version__ = "0.2.0"

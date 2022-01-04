@@ -2,7 +2,7 @@
 name = "pokespeare"
 version = "0.2.0"
 description = "Flask microservice that provides a REST API for shakespearean descriptions of Pokémon"
-authors = ["Giuseppe Lumia <g.lumia@outlook.com>"]
+authors = ["Giuseppe Lumia <gius@glumia.dev>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
